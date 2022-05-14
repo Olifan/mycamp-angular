@@ -1,0 +1,42 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar{
+    height: 40px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    text-align: center;
+    padding: 20px 50px;
+}
+
+.leftMenu{
+    display: grid;
+    grid-template-columns: fit-content(50px) fit-content(50px) fit-content(50px) fit-content(50px);
+    list-style: none;
+    padding-left: 0px;
+}
+
+.rightMenu{
+    display: grid;
+    grid-template-columns: fit-content(50px) fit-content(50px) fit-content(50px);
+    list-style: none;
+    float: right;
+    padding-left: 0px;
+}
+
+.menuItem{
+    margin: 0 10px;
+}
+
+.centrNav{
+    position: relative;
+}
+
+.logoMain{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

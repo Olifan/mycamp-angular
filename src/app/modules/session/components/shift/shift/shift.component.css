@@ -1,0 +1,31 @@
+.mainContent{
+    height: 100%;
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    padding: 40px 60px;
+}
+
+.shiftImage, .shiftDescription{
+    margin: 20px;
+    width: 600px;
+    height: 600px;
+}
+
+.shiftImage{
+    background-image: url("http://www.mycamp.com.ua/images/mycamp/shifts/summer_2022_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.shiftDescription{
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+    background-color: #00ffe8;
+    border-radius: 55px;
+    padding: 15px 25px;
+    
+}
